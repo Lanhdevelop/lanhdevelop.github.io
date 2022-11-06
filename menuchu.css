@@ -1,0 +1,41 @@
+body, html{
+   margin: 0;
+    height: 100%;
+}
+.menu{
+    background-image: url(back.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.menu ul{
+    margin: 0   ;
+list-style: none;
+font-family:segoe ui light;
+font-size: 13px;
+padding-top: 40px;
+color: white;
+}
+
+.menu ul a:hover{
+    text-decoration: aqua;
+
+} 
+.menu ul li{
+    padding-bottom: 5px;
+    transition: 0.4s;
+} 
+.menu ul li .icon{
+    display: inline;
+    color: rgb(22, 158, 236);
+    opacity: 0;
+} 
+.menu ul li:hover .icon{
+         opacity: 1;
+} 
+.menu ul li:hover{
+    margin-left: 20px;
+} 
+.menu ul li .chu{display: inline;} 
+a{
+    text-decoration: none;
+}
